@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Product Sans";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#back {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#bg {
+    height: 100%
+}
+
+#back #grpc {
+    height: 550px;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    transform: translate(0, -50%)
+}
+
+#grpc img {
+    height: 200px;
+    width: 100px;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    padding: 0 160px;
+    color: #fff;
+    /* background-color: black; */
+}
+
+nav #left {
+    display: flex;
+    align-items: center;
+}
+
+nav #left h4 {
+    margin-right: 150px;
+}
+
+nav #left a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+nav i {
+    color: black;
+    margin-right: 30px;
+    font-size: 20px
+}
+
+nav #right {
+    display: flex;
+    align-items: center
+}
+
+nav button {
+    color: #fff;
+    padding: 10px 25px;
+    background-color: #FF6107;
+    border-radius: 5px;
+    border: none;
+}
+
+#content {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+    width: 410px;
+    height: 260px;
+    /* background-color: #fff; */
+}
+
+#content h1 {
+    line-height: 1.4;
+    font-size: 25px;
+    color: #fff;
+}
+
+#content p {
+    margin-top: 10px;
+    color: #fff;
+    opacity: .4;
+    font-size: 12px;
+}
+
+#content button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4DA0F3;
+    color: #fff;
+    font-size: 18px
+}
